@@ -1,0 +1,182 @@
+*{
+  margin: 0;
+  font-family: "Work Sans", Helvetica, sans-serif;
+}
+
+
+h2 {
+  font-family: 'Merienda One', Helvetica, sans-serif;
+  color: black;
+}
+
+.top{
+  height: 35px;
+  background-color: beige;
+  margin:0px;
+  padding: 0px;
+}
+
+i{
+  padding-left: 8px;
+  height: 100%;
+  font-size: 20px;
+  padding-top: 8px;
+  color: black;
+}
+
+h1 {
+    font-size: 25pt;
+    display: inline-block;
+    margin: 0;
+    padding-top: 10px;
+    font-weight: 300;
+    padding-bottom: 10px;
+
+}
+
+.title{
+  text-align: center;
+  font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: black;
+  text-shadow: 3px 3px 3px #fff;
+  padding-bottom: 15px;
+}
+
+
+/* NAVBAR*/
+
+nav {
+
+  background: none;
+  padding: 16px;
+  text-align: center;
+  border-top: 1px solid gray;
+}
+
+.menuItems li {
+      margin: 50px;
+      display: inline;
+      text-align: center;
+
+}
+
+.menuItems li>a {
+  font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: rgba(0,0,0,0.7);
+  text-shadow: 3px 3px 3px #fff;
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        font-weight: 400;
+        transition: all 0.5s ease-in-out;
+        position: relative;
+        text-transform: uppercase;
+}
+
+.top-banner{
+  height: 500px;
+  width: auto;
+  background-image: url(../img/photo-of-cushion-seats-on-ground-crop2.jpg);
+  background-attachment: fixed;
+  background-size:cover;
+  clear: both;
+}
+
+.container {
+  min-height: 480px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-flow: wrap row;
+}
+
+.box {
+  height: 450px;
+  width: 600px;
+  background-color: beige;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 80px;
+  padding-top: 90px;
+  /*border-right: 25px solid white; /*REMEMBER TO TAKE IF OFF IN MEDIA*/
+}
+
+.box:hover{
+  background-color: white;
+}
+.box2 {
+  height: 450px;
+  width: 600px;
+  display: inline-block;
+}
+
+#center {
+justify-content:center;
+align-items: center;
+}
+
+.container2 {
+  min-height: 150px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content:space-around;
+}
+
+.box3 {
+  height: 300px;
+  width: 400px;
+  display: inline-block;
+}
+
+.shop {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 34px 2px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.shop:hover{
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+}
+
+footer{
+  margin-top: 60px;
+  border-top: 2px solid black;
+  padding: 15px 30px;
+  background-color:;
+  font-weight: bold;
+
+}
+
+.footertitles{
+    list-style-type: none;
+    text-align: left;
+    line-height: 1.6;
+    float: left;
+}
+
+.footerlinks{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+
+}
+
+.bottom{
+  display: ;
+  background-color: ;
+  margin:0px;
+  padding-top: 20px;
+  height: 35px;
+}
